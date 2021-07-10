@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #d9d9eb;
+}
+.button-customized {
+  width: 200px;
+}
+
+@media only screen and (max-width: 767px) {
+  .anisky-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  .img-miku {
+    display: none;
+  }
+
+  .container-full {
+    margin: 4rem;
+  }
+  .container--form {
+    padding: 2rem;
+  }
+}
+
+/* table 740px< X <1024px */
+
+@media only screen and (min-width: 770px) {
+  /* table */
+  .container-large {
+    padding-top: 100px;
+  }
+  .form-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
